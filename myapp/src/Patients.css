@@ -1,0 +1,53 @@
+.patients-container {
+  padding: 40px;
+}
+
+.patients-container h1 {
+  margin-bottom: 50px;
+}
+
+.patients-container table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--dark-row-background);
+  color: white;
+}
+
+table tr:nth-child(odd) {
+  background-color: var(--light-row-background);
+}
+
+table tr:nth-child(even) {
+  background-color: var(--medium-row-background);
+}
+
+table thead tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+table thead tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}

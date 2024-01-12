@@ -1,0 +1,23 @@
+.patients-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patients-container th,
+.patients-container td {
+  padding: 8px;
+  text-align: left;
+}
+
+.patients-container th {
+  background-color: var(--dark-row-background); /* Using your CSS variable */
+  color: white;
+}
+
+.patients-container tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.patients-container tr:nth-child(even) {
+  background-color: #ddd;
+}

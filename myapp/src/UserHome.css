@@ -1,0 +1,29 @@
+.user-container {
+  display: flex;
+  width: 100%;
+}
+
+.navbar {
+  width: 25%;
+}
+
+.main-content {
+  width: 75%;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .user-container {
+    flex-direction: column;
+  }
+
+  .navbar,
+  .main-content {
+    width: 100%;
+  }
+}
